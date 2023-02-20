@@ -1,0 +1,12 @@
+[package]
+name = "messages"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+roslibrust_codegen = "0.6.0"
+roslibrust_codegen_macro = "0.6.0"
+serde = { version = "1", features = ["derive"] }

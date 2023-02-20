@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["configuration", "messages", "nanoleaf-aurora"]

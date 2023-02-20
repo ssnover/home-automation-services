@@ -1,0 +1,4 @@
+[submodule "messages/std_msgs"]
+	path = messages/std_msgs
+	url = https://github.com/ros/std_msgs.git
+	branch = kinetic-devel

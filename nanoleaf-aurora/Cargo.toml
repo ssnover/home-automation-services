@@ -1,0 +1,18 @@
+[package]
+name = "nanoleaf-aurora"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "nanoleaf-aurora-driver"
+
+[dependencies]
+borealis = { git = "https://github.com/ssnover/borealis.git" }
+configuration = { path = "../configuration" }
+messages = { path = "../messages" }
+roslibrust = "0.6"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
